@@ -42,6 +42,6 @@ pipeline {
         }     
         changed {
             mail to:"kumarg345@gmail.com", subject:"CHANGED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'", body: "CHANGED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'"
-        }*/
-    }
+        }
+    }*/
 }
